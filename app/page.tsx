@@ -85,7 +85,7 @@ export default function HomeServicesDemo() {
                 {/* Interaction Logic */}
                 {!showBooking ? (
                   <div className="grid grid-cols-2 gap-2 ml-10">
-                    {['Aircon Leak', 'Pipe Burst', 'No Power', 'General Repair'].map(opt => (
+                    {['Aircon Leak', 'Strange smell', 'Not working', 'General Repair'].map(opt => (
                       <button 
                         key={opt} 
                         onClick={() => handleServiceClick(opt)}
