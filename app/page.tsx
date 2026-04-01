@@ -7,7 +7,7 @@ export default function HomeServicesDemo() {
   const [showBooking, setShowBooking] = useState(false);
 
   // Replace this with your actual Calendly link
-  const CALENDLY_URL = "https://calendly.com/YOUR_LINK";
+  const CALENDLY_URL = "https://calendly.com/222dreamlap/emergency-home-service-booking";
 
   const handleServiceClick = (service: string) => {
     setChatMessage(`Got it. We have a technician nearby for ${service}. You can book a priority slot below:`);
